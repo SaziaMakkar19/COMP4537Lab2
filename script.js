@@ -4,7 +4,7 @@ $(document).ready(function() {
 		const message = $('#chatbot-input').val();
 		$.ajax({
 			type: 'POST',
-			url: 'https://gpt-4-chatbot-itr5.onrender.com',
+			url: 'https://gpt-4-chatbot-itr5.onrender.com/chatbot',
 			data: {
 				message: message
 			},
